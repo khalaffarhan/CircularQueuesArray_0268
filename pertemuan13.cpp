@@ -108,4 +108,14 @@ public:
 
             FRONT_Position = 0;
 
-            
+            //interasi dari awal array hingga REAR
+            while (FRONT_Position <= REAR_Position)
+            {
+                cout << queue_array[FRONT_Position] << "  ";
+                FRONT_Position++;
+            }
+            cout << endl;
+        }
+    }
+};
+
